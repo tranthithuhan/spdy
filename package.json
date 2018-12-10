@@ -1,0 +1,22 @@
+{
+  "name": "email",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "consul": "^0.34.0",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "express-fileupload": "^0.4.0",
+    "fs": "0.0.1-security",
+    "http2": "^3.3.7",
+    "jwt-decode": "^2.2.0",
+    "mongodb": "^3.1.1",
+    "morgan": "~1.9.0",
+    "node-vault": "^0.9.0",
+    "spdy": "^4.0.0"
+  }
+}
